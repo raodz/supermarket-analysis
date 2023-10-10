@@ -12,5 +12,5 @@ setuptools.setup(
     # },  # kaggle?
     license='MIT',
     packages=['supermarket_analysis'],
-    install_requires=['requests'],
+    install_requires=['pandas', 'numpy', 'matplotlib.pyplot', 'seaborn', 'scipy'],
 )

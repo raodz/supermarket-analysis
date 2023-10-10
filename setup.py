@@ -11,6 +11,6 @@ setuptools.setup(
     #     "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
     # },  # kaggle?
     license='MIT',
-    packages=['supermarket_analysis', 'constants'],
+    packages=['supermarket_analysis'],
     install_requires=['pandas', 'numpy', 'matplotlib', 'seaborn', 'scipy'],
 )

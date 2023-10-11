@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from constants import *
+from supermarket_analysis.constants import *
 
 
 def preprocess_data(df: pd.DataFrame):

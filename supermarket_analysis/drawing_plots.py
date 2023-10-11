@@ -1,7 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from constants import TOTAL
+from supermarket_analysis.constants import TOTAL
 
 
 def draw_countplot(df: pd.DataFrame, counted_variable: str, fig, ax,

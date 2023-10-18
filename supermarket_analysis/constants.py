@@ -1,5 +1,6 @@
 WEEK_DAY_NAMES = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
                   'Saturday', 'Sunday']
+HOURS = [10, 11, 12, 1, 2, 3, 4, 5, 6, 7, 8]
 POSSIBLE_PERIODS = {'Period of week': ['Monday-Thursday', 'Weekend'],
                     'Period of month': ['Beginning', 'Middle', 'Ending']}
 

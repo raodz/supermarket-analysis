@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from scipy import stats
 
-from drawing_plots import *
-from preparing_data import *
-from constants import *
+from supermarket_analysis.drawing_plots import *
+from supermarket_analysis.preparing_data import *
+from supermarket_analysis.constants import *
 
 # Reading df
 
@@ -85,6 +85,8 @@ draw_undivided_period_plot(month_data, 'Period od month', ax, row=1, col=1,
 
 plt.show()
 
+# Gender plots
+
 fig, ax = plt.subplots(nrows=2, ncols=2, figsize=BIG_PLOT)
 fig.suptitle('Customer\'s gender comparisons divided by category', fontsize=FONTSIZE)
 
@@ -109,8 +111,6 @@ draw_countplot(df, 'Product line', fig, ax, row=0, divided_by='Gender',
 draw_mean_std_barplot(gender_product_table, fig, ax, row=1, x_label='Gender',
                         y_label='Average number of sales per product line')
 plt.show()
-
-# Gender plots
 
 hour_data = prepare_data_for_lineplot(df, 'Hour', start=STORE_OPENING, stop=STORE_CLOSURE,
                                       mode='sum', divided_by='Gender')

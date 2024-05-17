@@ -1,46 +1,36 @@
-# Supermarket Analysis
+# Supermarket Sales Analysis Functions Repository
 
-This project aims to analyze data from a supermarket chain to gain insights into customer behavior, sales patterns, and product performance. It utilizes Python libraries such as Pandas, Matplotlib, and Seaborn for data manipulation and visualization.
+## Overview
 
-## Getting Started
+This repository stores functions used in a Kaggle notebook focused on analyzing supermarket sales. The functions are organized to facilitate data preparation, plot generation, and the use of constants throughout the analysis.
 
-To get started with this project, follow these steps:
+## Contents
 
-1. Clone the repository:
+- `constants.py`: Definitions of constants used across the analysis.
+- `drawing_plots.py`: Functions for creating various plots and visualizations.
+- `preparing_data.py`: Functions for cleaning, transforming, and preparing the dataset for analysis.
 
-```
-git clone https://github.com/raodz/supermarket-analysis.git
-```
+## Usage
 
-2. Install the required dependencies:
-
-```
-pip install -r requirements.txt
-```
-
-3. Explore the data and run the analysis scripts.
-
-## Data
-
-The dataset used in this project contains information about sales transactions, customer demographics, product details, and more. It is provided in CSV format at https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales. To run the code it should be located in the `data/` directory.
-
-## Analysis
-
-The analysis is divided into several parts, each focusing on a different aspect of the supermarket's operations. These include:
-
-- Exploratory Data Analysis (EDA)
-- Customer Segmentation
-- Product Performance Analysis
-- Sales Trend Analysis
-- etc.
-
-## Contributing
-
-Contributions to this project are welcome. If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com//raodz/supermarket-analysis.git
+   ```
+2. **Import the necessary modules in your Kaggle notebook:**
+   ```python
+   from constants import *
+   from drawing_plots import *
+   from preparing_data import *
+   ```
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
+This repository is licensed under the MIT License. See the `LICENSE` file for details.
 
-Feel free to modify it according to your project's specifics or add more detailed instructions as needed.
+## Contributing
+
+Contributions are welcome! Please create a pull request or open an issue for suggestions, improvements, or bug reports.
+
+## Contact
+
+For questions or support, please contact the repository owner via [GitHub Issues](https://github.com/yourusername/supermarket-sales-analysis/issues).

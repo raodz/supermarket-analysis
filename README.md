@@ -14,7 +14,7 @@ This repository stores functions used in a Kaggle notebook focused on analyzing 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com//raodz/supermarket-analysis.git
+   git clone https://github.com/raodz/supermarket-analysis.git
    ```
 2. **Import the necessary modules in your Kaggle notebook:**
    ```python

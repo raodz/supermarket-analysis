@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository stores functions used in a Kaggle notebook focused on analyzing supermarket sales. The functions are organized to facilitate data preparation, plot generation, and the use of constants throughout the analysis.
+This repository stores functions used in a Kaggle notebook focused on analyzing supermarket sales. The functions are organized to facilitate data preparation, plot generation, and the use of constants throughout the analysis. The notebook can be found at https://www.kaggle.com/code/rafalodziemski/supermarket-analysis
 
 ## Contents
 

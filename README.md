@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository stores functions used in a Kaggle notebook focused on analyzing supermarket sales. The functions are organized to facilitate data preparation, plot generation, and the use of constants throughout the analysis. The notebook can be found at https://www.kaggle.com/code/rafalodziemski/supermarket-analysis
+This repository stores functions used in a Kaggle notebook focused on analyzing supermarket sales. The functions are organized to facilitate data preparation, plot generation, and the use of constants throughout the analysis.
 
 ## Contents
 
@@ -12,16 +12,12 @@ This repository stores functions used in a Kaggle notebook focused on analyzing 
 
 ## Usage
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/raodz/supermarket-analysis.git
-   ```
-2. **Import the necessary modules in your Kaggle notebook:**
-   ```python
-   from constants import *
-   from drawing_plots import *
-   from preparing_data import *
-   ```
+The notebook can be found at https://www.kaggle.com/code/rafalodziemski/supermarket-analysis.
+
+![image](https://github.com/raodz/supermarket-analysis/assets/124355504/a00d3510-366c-41a7-8640-62a7efbd8c4d)
+
+The notebook contains data preparation, plots and a short analysis of the results.
+
 
 ## License
 
